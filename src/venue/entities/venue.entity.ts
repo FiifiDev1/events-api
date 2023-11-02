@@ -6,39 +6,39 @@ import { Entity, Column, PrimaryGeneratedColumn, OneToMany, ManyToOne, JoinColum
 
 @Entity()
 export class Venue {
-  @ApiProperty({description: 'sdfas'})
+  @ApiProperty()
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
-  @ApiProperty({description: 'sdfas'})
+  @ApiProperty()
   @Column()
   name: string;
   
-  @ApiProperty({description: 'sdfas'})
+  @ApiProperty()
   @Column()
   country: string;
   
-  @ApiProperty({description: 'sdfas'})
+  @ApiProperty()
   @Column()
   state: string;
   
-  @ApiProperty({description: 'sdfas'})
+  @ApiProperty()
   @Column()
   city: string;
   
-  @ApiProperty({description: 'sdfas'})
+  @ApiProperty()
   @Column()
   timezone: string;
   
-  @ApiProperty({description: 'sdfas'})
+  @ApiProperty()
   @Column()
   zip_code: string;
 
-  @ApiProperty({description: 'sdfas'})
+  @ApiProperty()
   @Column()
   address: string
   
-  @ApiProperty({description: 'sdfas'})
+  @ApiProperty()
   @Column('uuid')
   event_id: string
   
