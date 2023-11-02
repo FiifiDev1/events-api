@@ -66,4 +66,10 @@ Endpoint
 DELETE http://my.api.url/events/123
 
 This endpoint deletes an event by its unique identifier
+
+Swagger Doc
+Endpoint
+GET /api
+
+Access swagger documention here
 >>>>>>> bcfd4ea (added swagger doc config)
